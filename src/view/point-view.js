@@ -1,8 +1,8 @@
 import {createElement} from '../render.js';
 
-function createPointView() {
-  return `
-    <li class="trip-events__item">
+const createPointView = () =>
+  `
+  <li class="trip-events__item">
     <div class="event">
       <time class="event__date" datetime="2019-03-18">MAR 18</time>
       <div class="event__type">
@@ -40,7 +40,6 @@ function createPointView() {
     </div>
   </li>
   `;
-}
 
 export default class PointView {
   getTemplate() {
