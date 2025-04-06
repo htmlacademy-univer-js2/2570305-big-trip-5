@@ -5,3 +5,4 @@ const tripElement = document.querySelector('.trip-events');
 const boardPresenter = new BoardPresenter({boardContainer: tripElement, filterContainer: filtersElement});
 
 boardPresenter.init();
+
