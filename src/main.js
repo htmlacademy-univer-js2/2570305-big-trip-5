@@ -6,3 +6,4 @@ const boardPresenter = new BoardPresenter({boardContainer: tripElement, filterCo
 
 boardPresenter.init();
 
+
